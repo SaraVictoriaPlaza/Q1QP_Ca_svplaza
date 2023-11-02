@@ -1,0 +1,363 @@
+*{
+    padding: 0px;
+    margin: 0px;
+} 
+
+.navbar{
+    height: 9.4vh; /*sets the viewheight of the navbar used in all pages*/
+    background-color: rgb(58, 80, 98);/*sets background color of an element*/
+    border: 1px solid black;
+}
+
+.main{
+    height:80.5vh;
+    border: 1px solid black;
+    background-color: rgb(159, 172, 182); /*sets a background color preference*/
+    background-size:100%;
+}
+
+
+.bottombanner{
+    height:9.2vh;
+    border: 1px solid black;
+    background-color: rgb(58, 80, 98);
+}
+
+.topic{
+    height: 45vh;
+    width: 90vw;
+    background-color: rgb(58, 80, 98);
+    position: relative; /*helps so that we can adjust the div in our own setting*/
+    top: 18vh; /*eg. of a position*/
+    left:4vw;
+    text-align:center; /*aligns the text to center*/
+    font-size: 30px;/*adjusts text size basedd on preference*/ 
+    border: 1px solid black;
+    color: black; /*text color*/
+}
+
+.text{
+    position: relative; /*determines the position of an element*/
+    top: 10vh; /*the preffered position set*/
+}
+
+
+.logo2{ 
+    border: 1px solid black;
+    border-radius: 100%; 
+    position: absolute;
+    top: 25%;
+    left: 80%;
+    background-image:url(imgs/logo.jpg);/*sets an image as per the background*/
+}
+
+.logo{
+    border: 1px solid black;
+    border-radius: 100%;
+    position: relative;
+    top: 1.5vh;
+    margin-left: 1vw;/*sets thickness of the margin-left area*/
+}
+
+.buttons a{
+    background-color: rgb(110,154,191);
+    text-align: center;
+    height: 2vh;
+    width: 6vw;
+    border: 1px solid black;
+    font-size: 12px;
+    border-radius: 20px; 
+    padding: 10px;
+    margin: 1px;
+    font-family: Arial;
+    text-decoration: none; /*removes text alignment*/
+    position: relative;
+    top:-4vh;
+    float: right; /*sets on how a box should be floated*/
+    color: white;
+}
+
+.text2{
+    position: relative;
+    top: 4vh;
+    display: inline-block;
+    color: white;
+}
+
+.home a{
+    text-align: center;
+    background-color: rgb(110,154,191);
+    height: 2vh; /*adjusts the height of an area*/
+    width: 4vw;/*adjusts the width of an area*/
+    border: 1px solid black;
+    font-size: 13px;
+    border-radius: 20px; 
+    padding: 10px; /*sets thickness of padding area*/
+    margin: 1px; /*sets thickness of margin area*/
+    font-family: Arial; /*sets text font*/
+    text-decoration: none;
+    position: relative;
+    top: -1vh;
+    float: right;
+    color: white; /*sets a text color*/
+}
+
+.main2{
+    height: 90.3vh;
+    background-color: rgb(91,122,148);
+}
+
+.header{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(82, 108, 130);
+    height: 10vh;
+    width: 96vw;
+    position: relative;
+    left: 1vw;/*vw, view width is used to base and fit the content*/
+    top: 1vh;
+    text-align: center;
+}
+
+.text3{
+    position: absolute;
+    left:5%;
+    top:25%;
+    font-size: 20px;
+    margin-left: 20vw;
+}
+
+.text4{
+    position: relative;
+    top:6vh;
+    left:2vw;
+    font-family: sans-serif;
+}
+
+.text5{
+    
+    width: 80vw;
+    position: relative;
+    top:9vh;
+    left:2vw;
+    font-family: garamond;
+    font-size: 20px;
+}
+
+.def{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(217, 217, 217);
+    height: 68.2vh;
+    width: 96vw;
+    position: relative;
+    left: 1vw;
+    top: 1.5vh;
+    
+} 
+
+.bottombanner2{
+    position: relative;
+    top: 2vh;
+    height:9.2vh;
+    border: 1px solid black;
+    background-color: rgb(58, 80, 98);
+}
+
+.main3{
+    height:80.5vh;
+    border: 1px solid black;
+    background-color: rgb(159, 172, 182); /*sets a background color preference*/
+    background-size:100%;
+}
+
+.page3heading{
+    font-size: 30px;
+    position: relative;
+    top: 3vh;
+    float: left;
+    margin-left: 3vh;
+}
+
+.refs{
+    position: relative;
+    top: 6vh;
+    float: left;
+    margin-left: 3vh;
+    font-family: garamond;
+}
+.refs a{/*calls only with the elements 'a'*/
+    text-decoration: none; 
+}
+
+.ref2{
+    position: relative;
+    top: 2vh;
+}
+
+.ref3{
+    position: relative;
+    top: 4vh
+}
+
+.ref4{
+    position: relative;
+    top: 2vh;
+}
+
+.socmeds{
+    float: left;
+    position: relative;
+    top: 2vh;
+}
+
+.abtustext{
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    position: relative;
+    top: 3vh;
+    margin-left: 42vw;
+}
+
+.users{
+    border: 1px solid black;
+    height: 65vh;
+    position: relative;
+    top:4vh;
+    background-color:rgb(217, 217, 217);
+}
+
+.desc{
+    color: black;
+    text-align: center;
+    margin-top: 40vh;
+    position: relative;
+    font-family: Garamond;
+    font-weight: bold;
+}
+
+.desc a{
+    text-decoration: none;
+    color: white;
+}
+
+.person1{
+    display: inline-block;
+    border: 1px solid black;
+    height: 60vh;
+    width: 20vw;
+    position: relative;
+    top: 1vh;
+    margin-left: 10vw;
+    background-color: rgb(91, 122, 148);
+}
+.person2{
+    display: inline-block;
+    border: 1px solid black;
+    height: 60vh;
+    width: 20vw;
+    position: relative;
+    top: 1vh;
+    margin-left: 10vw;
+    background-color: rgb(91, 122, 148);
+}
+
+.person3{
+    display: inline-block;
+    border: 1px solid black;
+    height: 60vh;
+    width: 20vw;
+    position: relative;
+    top:1vh;
+    margin-left: 10vw;
+    background-color: rgb(91, 122, 148);
+}
+
+
+.desc img{ 
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px solid black;
+    border-radius: 100%; 
+}
+
+.surname{
+    font-family: sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    width: 30vw;
+    height: 20vh;
+    margin-left: 3vw;
+    position: relative;
+    top: 4vh;
+    background-color: #f2f2f2;
+    border: 2px solid black;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.topicstat{
+    padding: 10px;
+    
+}
+
+.dataandstat{
+    font-size: 21px;
+    font-family: 'Times New Roman';
+    position: relative;
+    top: 3%;
+    left: 2%;
+    margin-right: 22vw;
+    float: right;
+}
+
+.data3 img{
+    display: inline-block;
+    width: 27vw;
+    height: 29vh;
+    margin-left: 5.7vw;
+    position: relative;
+    margin-top: 5vh;
+    border: 2px solid black;
+}
+
+.datatopic1{
+    position: absolute; /*determines the final location of an element*/
+    left: 35%;
+    top: 23%;
+    width: 43vw;
+}
+
+.datatopic2{
+    position: absolute;
+    left: 35%;
+    top: 55%;
+    width: 63vw;
+}
+
+.piechart img{
+    position: absolute;
+    left: 82%;
+    top: 23%;
+    border: 1px solid black;
+    border-radius: 100%; 
+}
+
+
+
+
+
+
+
+
+
+
+
